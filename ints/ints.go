@@ -1,6 +1,6 @@
 //This is free and unencumbered software released into the public domain.
 
-//Package ints implements ints utility functions
+//Package ints implements integer utility functions
 package ints
 
 //RoundUpPowerOf2 return the rounded up power of 2 of n
