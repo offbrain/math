@@ -3,8 +3,8 @@
 //Package ints implements integer utility functions
 package ints
 
-//RoundUpPowerOf2 return the rounded up power of 2 of n
-//from: https://graphics.stanford.edu/~seander/bithacks.html#RoundUpPowerOf2
+//RoundUpPowerOf2 return the rounded up power of 2 of n.
+//Implementation from: https://graphics.stanford.edu/~seander/bithacks.html#RoundUpPowerOf2
 func RoundUpPowerOf2(n int) int {
 	n--
 	n |= n >> 1
